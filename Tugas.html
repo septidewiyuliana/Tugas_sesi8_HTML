@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas HTML | Septi Dewi Yuliana</title>
+    <style>
+        .container {
+            /*width: 1300px;*/
+            /*margin: auto;*/
+        }
+
+        .nav {
+            background-color: black;
+            text-align: center;
+        }
+
+        .nav ul,
+        li {
+            color: white;
+            display: inline-block;
+        }
+
+        .nav li, a {
+            padding: 5px;
+            padding-right: 25px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .gambar {
+            background-image: url(gambar/gambar.jpg);
+            height: 511px;
+        }
+
+        .main {
+            width: 800px;
+            box-sizing: border-box;
+            float: left;
+            text-align: justify;
+            padding-left: 100px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+
+        .sidebar {
+            width: 500px;
+            float: right;
+        }
+
+        .sidebar img {
+            padding-left: 50px;
+            padding-top: 85px;
+            width: 350px;
+            height: 350px;
+        }
+
+        .footer {
+            background-color: black;
+            margin-top: -15px;
+        }
+
+        .footer h3 {
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* clearfix */
+        .cf:before,
+        .cf:after {
+            content: " ";
+            display: table;
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
+        .cf {
+            *zoom: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+            <li><a href="#">Menu 4</a></li>
+        </ul>
+    </div>
+    <div class="gambar"></div>
+    <div class="content cf">
+        <div class="main">
+            <h2>Title</h2>
+            <hr size="2" width="20%" align="left" color="black">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus corrupti pariatur! Nihil
+                aperiam,
+                ea distinctio quos accusamus totam facere sit velit ipsum sed officia deleniti, exercitationem dicta provident
+                ab voluptas, voluptatem ipsam. Sint doloremque tenetur ea assumenda neque cumque at beatae blanditiis aperiam
+                maxime optio ratione repudiandae fugiat non, laborum facere aliquid suscipit? Dolores debitis repudiandae
+                nobis
+                laboriosam nisi quo asperiores eum optio, dolore officiis fuga accusamus exercitationem modi tenetur, incidunt
+                sint magni illum et placeat voluptate quidem voluptatum perferendis sunt a! Fugit laboriosam debitis ex
+                mollitia
+                non illum alias sunt! Labore, voluptates eveniet, pariatur iusto dignissimos et dolore consequatur doloremque
+                officiis voluptas mollitia aliquam ab laboriosam, tenetur veniam tempora! Et tempore, maxime cumque dolor
+                ipsum
+                tenetur aut rerum, quod accusamus, odit vitae accusantium suscipit animi ad. Harum voluptatum repellendus
+                suscipit ipsa, recusandae blanditiis eaque eveniet molestias quibusdam vitae architecto? Minima sint adipisci
+                ipsam neque ullam nam, et velit!</p>
+        </div>
+        <div class="sidebar">
+            <img src="gambar/gambar.jpg" alt="gambar">
+        </div>
+    </div>
+    <div class="footer">
+        <h3>© 2023 by Septi Dewi Yuliana</h3>
+    </div>
+</div>
+</body>
+</html>
